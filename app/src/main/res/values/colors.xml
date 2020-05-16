@@ -3,4 +3,14 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="lighterGray">#E3E3E3</color>
+
+    <!--array of colors for list index-->
+    <integer-array name="colors_array">
+        <item>@android:color/holo_blue_dark</item>
+        <item>@android:color/holo_green_light</item>
+        <item>@android:color/holo_orange_dark</item>
+        <item>@android:color/holo_purple</item>
+        <item>@android:color/holo_red_light</item>
+    </integer-array>
 </resources>

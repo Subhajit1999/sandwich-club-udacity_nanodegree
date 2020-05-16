@@ -3,11 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lighterGray"
     tools:context="com.udacity.sandwichclub.MainActivity">
 
     <ListView
         android:id="@+id/sandwiches_listview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:padding="10dp"
+        android:dividerHeight="5dp"
+        android:scrollbars="none"/>
 </RelativeLayout>
