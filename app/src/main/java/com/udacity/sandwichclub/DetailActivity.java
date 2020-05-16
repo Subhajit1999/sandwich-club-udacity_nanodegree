@@ -123,6 +123,11 @@ public class DetailActivity extends AppCompatActivity {
 
     private void loadImage(String imageUrl){
         Log.d(TAG, "loadImage: loading sandwich image");
+        /*Error placeholder image from www.delhicourses.in
+        * and
+        * Sandwich placeholder image from http://www.manna.nf.ca/product/vegetarian-sandwich
+        * by Google Image search
+         */
         Picasso.with(this)
                 .load(imageUrl)
                 .placeholder(R.drawable.sandwich_placeholder)
